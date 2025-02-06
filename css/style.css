@@ -1,0 +1,41 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+}
+.div_menu{
+    margin-left: 100px;
+    width: 28%;
+    background-color: blue;
+    margin-top: 100px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.div_menu h1{
+    font-size: 75px;
+    font-family: "heavy";
+}
+.div_menu p{
+    font-size: 35px;
+}
+.div_menu button{
+    background-color: #252525; / color de fondo verde /
+    color: white; / color del texto /
+    border-radius: 20px;
+    padding: 15px 25px; / espaciado interno /
+    text-align: center; / centra el texto /
+    text-decoration: none; / elimina el subrayado /
+    display: inline-block; / para que el botón se ajuste al contenido /
+    font-size: 16px; / tamaño del texto /
+    cursor: pointer; / cambia el cursor al pasar sobre el botón */
+
+
+
+}
