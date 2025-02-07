@@ -1,0 +1,8 @@
+:root{
+    --color-1: #eee;
+}
+
+@font-face {
+    font-family: "heavy";
+    src: url(/sotrage/fonts/avenir/AvenirLTStd-Heavy.otf);
+}
