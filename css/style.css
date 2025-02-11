@@ -7,21 +7,47 @@
 
 .div_logo{
     background-color: blue;
-    height: 400px;
+    height: 440px;
     width: 100%;
     padding: 50px;
     display: flex;
     flex-direction: row;
 }
 .div_logo h1{
-    font-size: 90px;
-    padding-right: 200px;
-    /* right: 30px; */
+    padding-right: 0px;
+    font-family: "heavy";
+    width: 1900px;
+    height: 75%;
+    font-size: 100px;
+    display: flex;
+    /* background-color: aqua; */
 }
 .div_logo p{
-    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 300px;
+    font-family: "heavy";
+    width: 80%;
+    height: 75%;
+    font-size: 30px;
+    /* background-color: purple; */
 }
-.div_button{
-    background-color: red;
+.div_logo button{
+    font-family: "heavy";
+    color: aliceblue;
+    background-color: #252525;
+    border-radius: 15px;
+    position: absolute;    
+    top: 250px;
+    right: 825px;
+    /* background-color: red; */
+    height: 50px;
+    width: 140px;
 
+}
+main{
+
+}
+.div_img{
+    margin-bottom: 50px;
+    background-color: bisque;
 }
