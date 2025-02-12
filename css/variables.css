@@ -1,0 +1,12 @@
+:root{
+    --color-1: #eee;
+    --color-2: #363830;
+    --color-4: #c8cccf;
+    --color-3: #97a3a3;
+
+}
+
+@font-face {
+    font-family: "heavy";
+    src: url(../storage/font/avenir-heavy_freefontdownload_org/avenir-heavy.ttf);
+}
