@@ -1,0 +1,38 @@
+@import url('/css/variables.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "heavy", sans-serif;
+    /* background-color: var(--color-7); */
+}
+
+.content{
+    position: absolute;
+    top: 160px;
+    left: 320px;
+    width: 50%;
+    align-items: center;
+    background-color: blueviolet;
+}
+.content h1{
+    text-align: center;
+}
+.content p{
+    text-align: center  ;
+}
+
+.content button{
+    background-color: var(--color-7);
+    color: var(--color-8);
+    font-size: 17px;
+    position: absolute;
+    left: 245px;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+}
