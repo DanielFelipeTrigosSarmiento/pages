@@ -66,7 +66,7 @@ header{
     border-radius: 48px;
     gap: 35px;
 }
-.div__info {
+.div__infor {
     /* background: yellowgreen; */
     width: 250px;
     height: 100px;
@@ -74,15 +74,15 @@ header{
     flex-direction: column;
     gap: 10px;
 }
-.div__info img{
+.div__infor img{
     width: 40px;
 }
-.div__info h5{
+.div__infor h5{
     font-family: "Avenir-Heavy";
     font-size: 18px;
     color: var(--color-2);
 }
-.div__info p{
+.div__infor p{
     font-family: "Avenir-Roman";
     font-size: 16px;
     color: linear-gradient(90deg, rgba(37,37,37,1) 0%, rgba(139,139,139,1) 100%);
