@@ -1,0 +1,85 @@
+@import url('variables.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "heavy";
+}
+
+.div_title{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 120px;
+    margin-left: 75px;
+    padding-right: 500px;
+    width: 50%;
+    height: 500px;
+    align-items: left;
+    text-align: left;
+
+
+}
+
+.div_title button{
+    color: aliceblue;
+    width: 40%;
+    height: 50px;
+    align-items: center;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.div_title h1{
+    font-size: 60px;
+    line-height: 1.5; 
+    font-weight: 400;
+
+}
+
+.div_title p{
+    font-size: 23px;
+    line-height: 2; 
+    font-weight: 200;
+    color: #252525c9;
+}
+.img1{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+.img2{
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 140px;
+}
+
+.images{
+    margin-left: 75px;
+    display: flex;
+    flex-direction:row;
+    gap: 200px;
+    position: absolute;
+    margin-top: 900px;
+    padding-bottom: 40px;
+}
+
+.numbers{
+    color: #c7c2c2;
+    display: flex;
+    flex-direction: row;
+    gap: 580px;
+    position: absolute;
+    bottom: 80px;
+    left: 78px;
+    font-size: 22px;
+}
