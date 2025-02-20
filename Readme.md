@@ -1,1 +1,2 @@
 # change
+Comunico que se me daño todo el main y las ramas entonces al momento de hacer el merge se me mergeo todo pero al momento de abrirlo aparece solo la pagina numero 18 y las otras no, no entiendo porque entonces no pude arreglarlo, ya pues si profe usted es generoso seria ingrear al visual clonando el repo y ya viendolas con live server y cambiando de rama entonces pues nose, muchas gracias profe. 
