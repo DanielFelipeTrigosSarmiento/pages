@@ -1,85 +1,110 @@
-@import url('variables.css');
+@import url(/css/variables.css);
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: "heavy";
+body{
+    background: #F2F2F2;
 }
 
-.div_title{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 120px;
-    margin-left: 75px;
-    padding-right: 500px;
-    width: 50%;
-    height: 500px;
-    align-items: left;
-    text-align: left;
-
-
-}
-
-.div_title button{
-    color: aliceblue;
-    width: 40%;
-    height: 50px;
+header{
+    /* background: red; */
     align-items: center;
-    background-color: #252525;
+    padding: 20px;
+    justify-items: center;
+}
+.div__article {
+    display: flex;
+    width: 520px;
+    height: auto;
+    flex-direction: column;
+    /* background: pink; */
+    text-align: center;
+    align-items: center;
+    margin-top: 27px;
+    gap: 20px;
+}
+.div__article h1{
+    font-family: "Avenir-Heavy";
+    font-size: 37px;
+    color: var(--color-2);
+}
+.div__article p{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-2);
+}
+.div__button {
+    background: var(--color-2);
+    width: 102px;
+    height: 46px;
+    border-radius: 36px;
+    text-align: center;
+    align-content: center;
+}
+.div__button a{
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-1);
+}
+
+.section__container {
+    /* background: green; */
+    padding: 20px;
+    justify-items: center;
+}
+
+.div__box {
+    background: #FFFFFF;
+    width: 80%;
+    padding: 20px;
     display: flex;
     justify-content: center;
+    border-radius: 48px;
+    gap: 35px;
+}
+.div__infor {
+    /* background: yellowgreen; */
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div__infor img{
+    width: 40px;
+}
+.div__infor h5{
+    font-family: "Avenir-Heavy";
     font-size: 18px;
-    margin-top: 50px;
-    border-radius: 15px;
+    color: var(--color-2);
 }
-.div_title h1{
-    font-size: 60px;
-    line-height: 1.5; 
-    font-weight: 400;
-
+.div__infor p{
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    color: linear-gradient(90deg, rgba(37,37,37,1) 0%, rgba(139,139,139,1) 100%);
 }
 
-.div_title p{
-    font-size: 23px;
-    line-height: 2; 
-    font-weight: 200;
-    color: #252525c9;
-}
-.img1{
-    position: absolute;
-    margin-left: 700px;
-    margin-top: 70px;
-}
-
-.img2{
-    position: absolute;
-    margin-left: 1300px;
-    margin-top: 140px;
-}
-
-.images{
-    margin-left: 75px;
+.section__container + img{
+    position: relative;
     display: flex;
-    flex-direction:row;
-    gap: 200px;
-    position: absolute;
-    margin-top: 900px;
-    padding-bottom: 40px;
+    width: 90%;
+    height: 500px;
+    justify-self: center;
+    bottom: 90px;
+    z-index: -1;
 }
-
-.numbers{
-    color: #c7c2c2;
-    display: flex;
-    flex-direction: row;
-    gap: 580px;
-    position: absolute;
-    bottom: 80px;
-    left: 78px;
-    font-size: 22px;
+.section__img {
+    /* background: violet; */
+    width: 90%;
+    height: 500px;
+    justify-self: center;
+    height: auto;
+    padding-bottom: 20px;
+}
+.section__img img{
+    width: 33%;
 }
